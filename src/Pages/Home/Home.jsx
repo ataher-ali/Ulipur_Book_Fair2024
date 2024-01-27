@@ -3,7 +3,7 @@
 const Home = () => {
     return (
         <div>
-            home
+            <img src="https://i.ibb.co/Ltk5Hxr/1.png" alt="" />
             
         </div>
     );
