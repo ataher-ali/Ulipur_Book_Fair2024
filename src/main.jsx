@@ -9,6 +9,7 @@ import {
 import Home from './Pages/Home/Home.jsx';
 import About from './Pages/About/About.jsx';
 import Sponsors from './Pages/Sponsors/Sponsors.jsx';
+import Certificate from './Pages/Certificate/Certificate.jsx';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/sponsor",
         element: <Sponsors></Sponsors>,
+      },
+      {
+        path: "/certificate",
+        element: <Certificate></Certificate>,
       },
     ]
   },
