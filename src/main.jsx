@@ -10,6 +10,8 @@ import Home from './Pages/Home/Home.jsx';
 import About from './Pages/About/About.jsx';
 import Sponsors from './Pages/Sponsors/Sponsors.jsx';
 import Certificate from './Pages/Certificate/Certificate.jsx';
+import Volunteer from './Pages/Volunteer/Volunteer.jsx';
+import SearchCertificate from './Pages/Certificate/SearchCertificate.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +23,7 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "/about",
+        path: "/পরিচিতি",
         element: <About></About>,
       },
       {
@@ -29,8 +31,18 @@ const router = createBrowserRouter([
         element: <Sponsors></Sponsors>,
       },
       {
-        path: "/certificate",
-        element: <Certificate></Certificate>,
+        path: "/স্বেচ্ছাসেবী/",
+        element: <Volunteer></Volunteer>,
+      },
+      {
+        path: "/সনদ/",
+        element: <SearchCertificate></SearchCertificate>,
+      },
+      {
+        path: "/certificate/:id",
+        element:<Certificate></Certificate> ,
+        loader:({params})=>fetch(`http://localhost:1010/certificate/${params.id}`)
+        
       },
     ]
   },
