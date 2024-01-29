@@ -33,7 +33,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item">
                 <Link
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  to="/পরিচিতি"
+                  to="/about"
                 >
                 <span className="ml-2">পরিচিতি</span>
                 </Link>
@@ -41,7 +41,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item">
                 <Link
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  to="/স্বেচ্ছাসেবী"
+                  to="/volunteer"
                 >
                   <span className="ml-2">স্বেচ্ছাসেবী</span>
                 </Link>
@@ -49,7 +49,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item">
                 <Link
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  to="/সনদ"
+                  to="/certificate"
                 >
                   <span className="ml-2">সনদ</span>
                 </Link>

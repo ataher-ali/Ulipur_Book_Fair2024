@@ -23,7 +23,7 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "/পরিচিতি",
+        path: "/about",
         element: <About></About>,
       },
       {
@@ -31,11 +31,11 @@ const router = createBrowserRouter([
         element: <Sponsors></Sponsors>,
       },
       {
-        path: "/স্বেচ্ছাসেবী/",
+        path: "/volunteer",
         element: <Volunteer></Volunteer>,
       },
       {
-        path: "/সনদ/",
+        path: "/certificate/",
         element: <SearchCertificate></SearchCertificate>,
       },
       {
