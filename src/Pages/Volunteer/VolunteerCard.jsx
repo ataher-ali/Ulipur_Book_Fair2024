@@ -8,11 +8,12 @@ const VolunteerCard = () => {
         <div>
             <div className='flex justify-center'>
                 <div>
-                <img src={picture} className='h-72 rounded' alt="" />
+                <img src={picture} className='h-72 rounded-xl shadow-xl' alt="" />
                 
                 <div className='my-4'>
-                <p className='text-3xl my-4'> {name}</p>
-                <p className='my-2 '> <span className='font-bold'>পদবি :</span> {designation}<br /><span className='text-xl'>২৮ তম উলিপুর বই মেলা কমিটি</span></p>
+                <p className=' font-bold text-3xl my-4'> {name}</p>
+                <p className='my-2 '> <span className='font-bold'>পদবি :</span> {designation}</p>
+                <p className='my-2 font-bold text-xl'> ২৮ তম উলিপুর বই মেলা কমিটি </p>
                 <p className='my-2'> <span className='font-bold'> আইডি নং :</span> {idno}</p>
 
                 </div>

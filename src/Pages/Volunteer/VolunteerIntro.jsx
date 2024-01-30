@@ -5,8 +5,8 @@ const VolunteerIntro = (params) => {
     const { url,name,picture,designation} = params.element;
     console.log(params.element);
     return (
-        <div className='p-4 '>
-            <div className="card w-96 bg-base-100 shadow-xl">
+        <div className='lg:p-4 flex justify-center'>
+            <div className="card w-5/6 bg-base-100 shadow-xl">
                 <figure className="px-10 pt-10 ">
                     <img src={picture} alt="Shoes" className="rounded-xl  " />
                 </figure>

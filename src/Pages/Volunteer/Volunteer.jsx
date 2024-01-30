@@ -16,13 +16,15 @@ const Volunteer = () => {
         <div>
 
             <div className='bg-slate-100  h-auto p-5 rounded'>
+              <div className=''>
 
-              <div className='grid lg:grid-cols-3 md:grid-cols-2  grid-cols-2 gap-2 '>
+              <div className='grid  lg:grid-cols-3 md:grid-cols-2  grid-cols-1 gap-2 '>
                 {
                   Volunteer_Data.map(v=> <VolunteerIntro key={v._id} element={v}></VolunteerIntro>
                   )
                 }
               </div>
+                </div>
 
             </div>
         </div>
