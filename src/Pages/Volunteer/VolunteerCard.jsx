@@ -3,11 +3,17 @@ import { useLoaderData } from 'react-router-dom';
 
 const VolunteerCard = () => {
     const Volunteer_Data = useLoaderData()
-    const {name}=Volunteer_Data
+    const {name,designation,picture}=Volunteer_Data
     return (
         <div>
             <div className='mx-auto'>
-                <p>Name : {name}</p>
+                <div>
+                <img src={picture} alt="" />
+                <p> {name}</p>
+                <p> {designation}</p>
+                <p> {name}</p>
+
+                </div>
 
             </div>
         </div>

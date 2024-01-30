@@ -11,8 +11,8 @@ import About from './Pages/About/About.jsx';
 import Sponsors from './Pages/Sponsors/Sponsors.jsx';
 import Certificate from './Pages/Certificate/Certificate.jsx';
 import Volunteer from './Pages/Volunteer/Volunteer.jsx';
-import SearchCertificate from './Pages/Certificate/SearchCertificate.jsx';
 import VolunteerCard from './Pages/Volunteer/VolunteerCard.jsx';
+import Arcive from './Pages/Arcive/Arcive.jsx';
 
 const router = createBrowserRouter([
   {
@@ -38,19 +38,19 @@ const router = createBrowserRouter([
       {
         path: "/volunteer/:url",
         element: <VolunteerCard></VolunteerCard> ,
-        loader:({params})=>fetch(`http://localhost:1010/volunteer/${params.url}`)
+        loader:({params})=>fetch(`https://ubf-server.vercel.app/volunteer/${params.url}`)
         
-      },
-      {
-        path: "/certificate/",
-        element: <SearchCertificate></SearchCertificate>,
       },
       {
         path: "/certificate/:id",
         element:<Certificate></Certificate> ,
-        loader:({params})=>fetch(`http://localhost:1010/certificate/${params.id}`)
+        loader:({params})=>fetch(`https://ubf-server.vercel.app/certificate/${params.id}`)
         
       },
+      {
+        path:"/arcive",
+        element: <Arcive></Arcive>
+      }
     ]
   },
 ]);
