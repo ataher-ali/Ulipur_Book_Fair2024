@@ -3,7 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 
 const VolunteerCard = () => {
     const Volunteer_Data = useLoaderData()
-    const {name,designation,picture,facebook,idno}=Volunteer_Data
+    const {name,designation,picture,facebook,idno,whatsapp}=Volunteer_Data
     return (
         <div>
             <div className='flex justify-center'>
@@ -18,6 +18,7 @@ const VolunteerCard = () => {
                 </div>
                 
                 <a className='btn btn-outline my-4' href={facebook}> Facebook </a>
+                <a className='btn btn-outline my-4' href={`https://wa.me/+88${!whatsapp}`}> Facebook </a>
 
                 </div>
 
