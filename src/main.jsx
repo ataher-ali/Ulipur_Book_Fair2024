@@ -12,6 +12,7 @@ import Sponsors from './Pages/Sponsors/Sponsors.jsx';
 import Certificate from './Pages/Certificate/Certificate.jsx';
 import Volunteer from './Pages/Volunteer/Volunteer.jsx';
 import SearchCertificate from './Pages/Certificate/SearchCertificate.jsx';
+import VolunteerCard from './Pages/Volunteer/VolunteerCard.jsx';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,12 @@ const router = createBrowserRouter([
       {
         path: "/volunteer",
         element: <Volunteer></Volunteer>,
+      },
+      {
+        path: "/volunteer/:url",
+        element: <VolunteerCard></VolunteerCard> ,
+        loader:({params})=>fetch(`http://localhost:1010/volunteer/${params.url}`)
+        
       },
       {
         path: "/certificate/",
