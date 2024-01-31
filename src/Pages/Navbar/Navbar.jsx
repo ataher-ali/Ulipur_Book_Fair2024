@@ -9,10 +9,11 @@ export default function Navbar({ fixed }) {
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
-              className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+              className="text-sm flex bg-white rounded-xl leading-relaxed inline-block mr-4 px-2 whitespace-nowrap uppercase text-gray-600"
               to="/"
             >
-              উলিপুর বই মেলা ২০২৪ 
+              <img className="h-16 rounded-xl" src="https://i.ibb.co/Ltk5Hxr/1.png" alt="" />
+              <span className="mx-2 mt-6 font-bold text-base">উলিপুর বই মেলা </span>
             </Link>
             <button
               className="text-white bg-slate-50  cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
