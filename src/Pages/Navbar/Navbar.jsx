@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Navbar({ fixed }) {
+export default function Navbar({ }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
@@ -9,7 +9,7 @@ export default function Navbar({ fixed }) {
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
-              className="text-sm flex bg-white rounded-xl leading-relaxed inline-block mr-4 px-2 whitespace-nowrap uppercase text-gray-600"
+              className="text-sm flex bg-white rounded-xl leading-relaxed  mr-4 px-2 whitespace-nowrap uppercase text-gray-600"
               to="/"
             >
               <img className="h-16 rounded-xl" src="https://i.ibb.co/Ltk5Hxr/1.png" alt="" />
