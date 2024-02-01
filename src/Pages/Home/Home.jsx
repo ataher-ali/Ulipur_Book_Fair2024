@@ -4,8 +4,26 @@ const Home = () => {
     return (
         <div>
             <div className="mx-2 md:mx-10 lg:mx-36">
-            <img className="mx-auto block h-96" src="https://scontent.fjsr1-2.fna.fbcdn.net/v/t1.15752-9/420763266_1038068054153651_8569734927108473923_n.png?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=ikGLEEq7bi4AX-1SSoK&_nc_ht=scontent.fjsr1-2.fna&oh=03_AdSH3APpcjYBUEYTKAEWvVcrPlfJWBIWMVE8gBdIgMptbA&oe=65E1F549" alt="" />
-            
+            <div className="carousel w-full">
+  <div id="item1" className="carousel-item w-full">
+    <img src="https://i.ibb.co/prkzn7F/20240201-170052-0000.png" className="w-full" />
+  </div> 
+  <div id="item2" className="carousel-item w-full">
+    <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" className="w-full" />
+  </div> 
+  <div id="item3" className="carousel-item w-full">
+    <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" className="w-full" />
+  </div> 
+  <div id="item4" className="carousel-item w-full">
+    <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" className="w-full" />
+  </div>
+</div> 
+<div className="flex justify-center w-full py-2 gap-2">
+  <a href="#item1" className="btn btn-xs">1</a> 
+  <a href="#item2" className="btn btn-xs">2</a> 
+  <a href="#item3" className="btn btn-xs">3</a> 
+  <a href="#item4" className="btn btn-xs">4</a>
+</div>
 
                 <h3 className="text-2xl font-bold text-center  mt-6">বিস্তারিত জানতে </h3>
             <div className="flex justify-center my-2">
