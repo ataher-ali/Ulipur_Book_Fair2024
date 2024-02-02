@@ -15,7 +15,7 @@ const GestCard = (params) => {
                             <div
                                 className="p-4  !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8"
                             >
-                                <img className="ms-1 rounded-md border  border-black shadow-lg h-60   w-60" src={picture} alt="" />
+                                <img className="ms-1  rounded-md border  border-black shadow-lg h-32 lg:h-60   " src={picture} alt="" />
                                     
 
                                 <h2 className="mt-4 text-xl font-semibold sm:text-xl">{gest}</h2>
