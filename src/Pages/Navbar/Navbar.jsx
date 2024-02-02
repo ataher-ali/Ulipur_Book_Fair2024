@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// eslint-disable-next-line no-empty-pattern
 export default function Navbar({ }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
@@ -50,9 +51,9 @@ export default function Navbar({ }) {
               <li className="nav-item">
                 <Link
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  to="/arcive"
+                  to="/gest"
                 >
-                  <span className="ml-2">আর্কাইভ</span>
+                  <span className="ml-2">অতিথি</span>
                 </Link>
               </li>
             </ul>

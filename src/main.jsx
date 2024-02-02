@@ -14,6 +14,7 @@ import Volunteer from './Pages/Volunteer/Volunteer.jsx';
 import VolunteerCard from './Pages/Volunteer/VolunteerCard.jsx';
 import Arcive from './Pages/Arcive/Arcive.jsx';
 import NotFoundPage from './Pages/NotFoundPage/NotFoundPage.jsx';
+import Gest from './Pages/Gest/Gest.jsx';
 
 const router = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
       {
         path:"/arcive",
         element: <Arcive></Arcive>
+      },
+      {
+        path:"/gest",
+        element: <Gest></Gest>
       },
       
     ]
