@@ -14,7 +14,7 @@ const Home = () => {
 
 
             <div className="mx-2 md:mx-10 lg:mx-36">
-                <img className="w-screen rounded-xl" src="https://i.ibb.co/s3jMkby/image.png" alt="" />
+                <img className="w-screen rounded-xl" src="https://i.ibb.co/ryk1TF4/image.png" alt="" />
 
 
 
