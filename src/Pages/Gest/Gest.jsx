@@ -19,7 +19,7 @@ const Gest = () => {
                         <div className='bg-slate-100  h-auto p-5 rounded'>
               <div className=' flex justify-center'>
 
-              <div className='grid  lg:grid-cols-3 md:grid-cols-2  grid-cols-1 gap-2 '>
+              <div className='grid  lg:grid-cols-4 md:grid-cols-3  grid-cols-1 gap-1 '>
                 
             {
                   gestData.map(g=> <GestCard key={g._id} element={g}></GestCard>

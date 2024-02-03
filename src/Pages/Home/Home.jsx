@@ -13,7 +13,7 @@ const Home = () => {
             </Marquee>
 
 
-            <div className="mx-2 md:mx-10 lg:mx-36">
+            <div  className="mx-2 md:mx-10 lg:mx-36">
                 <img className="w-screen rounded-xl" src="https://i.ibb.co/ryk1TF4/image.png" alt="" />
 
 
@@ -31,9 +31,9 @@ const Home = () => {
                 <h2 className="text-3xl text-center font-extrabold  text-cyan-800 my-4"> সভাপতিত্ব করবেন   </h2>
                 <div className="md:flex md:justify-start gap-2">
                     
-                    <div className="flex  rounded-md w-full lg:w-1/2 border-blue-900 shadow justify-start items-center my-5 ">
+                    <div className="flex   lg:w-1/2 justify-start items-center my-5 ">
 
-                        <img className="  m-2 rounded-md  border-blue-900 border shadow-lg h-32 lg:h-60" src="https://i.ibb.co/Ltk5Hxr/1.png" alt="" />
+                        <img className="  m-2 rounded-md  border-blue-900 border h-32 lg:h-60" src="https://i.ibb.co/Ltk5Hxr/1.png" alt="" />
                         <div className="m-4 ">
                             <h3 className="ms-2 px-4 shadow-2xl border border-blue-700 text-xs font-bold my-3 p-2 w-fit rounded-full bg-yellow-300">উদ্বোধনী অনুষ্ঠান</h3>
                             <h2 className="text-lg font-bold ms-2 text-green-800">জুলফিকার আলী (সেনা)  </h2>
@@ -41,7 +41,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="flex  rounded-md  border-blue-900 shadow-xl w-full lg:w-1/2 justify-start items-center my-5 ">
+                    <div className="flex  w-full lg:w-1/2 justify-start items-center my-5 ">
 
                         <img className=" m-2 rounded-md border border-blue-900 p-3   h-32 lg:h-60" src="https://i.ibb.co/Ltk5Hxr/1.png" alt="" />
                         <div className="m-4 ">

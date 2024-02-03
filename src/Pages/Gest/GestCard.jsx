@@ -6,16 +6,16 @@ const GestCard = (params) => {
         <div>
             <Link>
                 <div className="  m-4">
-                    <a href=""  className=" w-80 group relative block h-64 sm:h-80 lg:h-96">
-                        <span className="absolute inset-0 border-2 border-dashed rounded-md   border-black"></span>
+                    <a href=""  className=" w-72 group relative block h-64 sm:h-80  lg:h-96">
+                        <span className="absolute  border-2 border-dashed rounded-md  "></span>
 
                         <div
-                            className="relative flex h-full transform items-end border  rounded-md border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2"
+                            className="relative flex h-full border items-end   rounded-md border-black bg-white transition-transform  "
                         >
                             <div
-                                className="p-4  !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8"
+                                className="p-4    group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8"
                             >
-                                <img className="ms-1  rounded-md border  border-black shadow-lg h-32 lg:h-60   " src={picture} alt="" />
+                                <img className="ms-1   rounded-md border  border-black shadow-lg h-32 lg:h-60   " src={picture} alt="" />
                                     
 
                                 <h2 className="mt-4 text-xl font-semibold sm:text-xl">{gest}</h2>
@@ -23,7 +23,7 @@ const GestCard = (params) => {
                             </div>
 
                             <div
-                                className="absolute p-4 opacity-0 bg-slate-800 text-white rounded-b-md transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8"
+                                className="absolute p-4 opacity-0 w-full bg-slate-800 text-white rounded-b-md transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8"
                             >
                                 <span>
                                 <h2 className="mt-4 text-base font-bold sm:text-xl">{name}</h2>
