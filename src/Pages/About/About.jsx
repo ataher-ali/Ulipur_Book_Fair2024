@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 const About = () => {
     return (
         <div>
-            <div className="mx-2 md:mx-10 lg:mx-36">
+            <div className="mx-4 md:mx-10 lg:mx-36">
                 <h2 className="text-center text-3xl font-bold my-10 text-cyan-800"> ফ্রেন্ডস্ ফেয়ার ও উলিপুর বইমেলা </h2>
 
                 <div className="my-2">

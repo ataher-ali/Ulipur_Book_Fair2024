@@ -59,7 +59,7 @@ const Footer = () => {
                 </ul>
                 <div className="mt-2 border-t border-gray-100 pt-4">
       <p className="text-center text-xs/relaxed text-white">
-        © Ulipur Fear 2024. All rights reserved.
+        © Ulipur Book Fear 2024. All rights reserved.
 
         <br />
 
