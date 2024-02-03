@@ -15,6 +15,7 @@ import VolunteerCard from './Pages/Volunteer/VolunteerCard.jsx';
 import Arcive from './Pages/Arcive/Arcive.jsx';
 import NotFoundPage from './Pages/NotFoundPage/NotFoundPage.jsx';
 import Gest from './Pages/Gest/Gest.jsx';
+import SearchCertificate from './Pages/Certificate/SearchCertificate.jsx';
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
         element:<Certificate></Certificate> ,
         loader:({params})=>fetch(`https://ubf-server.vercel.app/certificate/${params.id}`)
         
+      },
+      {
+        path:"/certificate",
+        element: <SearchCertificate></SearchCertificate>
       },
       {
         path:"/arcive",
