@@ -18,8 +18,8 @@ const VolunteerCard = () => {
 
                 </div>
                 
-                <a target='_blank' className='btn btn-outline my-4' href={facebook}> Facebook </a>
-                <a target='_blank' className='btn btn-outline my-4 mx-2'  href={`https://wa.me/+88${whatsapp}`}> WhatsApp </a>
+                <Link target='_blank' ref={`facebook of ${name}`} className='btn btn-outline my-4' href={facebook}> Facebook </Link>
+                {/* <a target='_blank' className='btn btn-outline my-4 mx-2'  href={`https://wa.me/+88${whatsapp}`}> WhatsApp </a> */}
 
                 </div>
 

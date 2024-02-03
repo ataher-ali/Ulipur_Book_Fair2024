@@ -1,5 +1,6 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
+import { FaCloudArrowDown } from "react-icons/fa6";
 
 const Certificate = () => {
     const certificate_data = useLoaderData()
@@ -40,15 +41,27 @@ const Certificate = () => {
                         </tr>
                     </tbody>
                 </table>
-                    <div className='border border-black'></div>
+                <div className='border border-black'></div>
             </div>
 
             <div className='mx-2  m-2 lg:mt-8 lg:mx-10 flex justify-center'>
 
                 <div >
-                <img className=' lg:h-60 rounded shadow' src={certificate} alt="" />
-                <button className='btn mx-auto block shadow-lg m-4 font-medium text-sm btn-accent'>Doownlod</button>
-                
+                    <img className=' lg:h-60 rounded shadow' src={certificate} alt="" />
+                    <Link
+                        to={certificate}
+                        download="Example-PDF-document"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                    <button className='btn btn-outline mx-auto block flex-row justify-center shadow-lg  m-4 font-medium text-sm bg-gray-200'>
+                    <div className='flex items-center gap-2'>
+                    <FaCloudArrowDown />
+                    <span>Download file</span>
+                    </div>
+                    </button>
+                        
+                    </Link>
                 </div>
             </div>
         </div>
