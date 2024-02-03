@@ -29,7 +29,7 @@ const SearchCertificate = () => {
                 />
         </div>
                 <Link to={`/certificate/${inputValue}`}>
-                <button className='btn btn-outline mx-auto block w-1/4 bg-slate-200 m-2' onClick={handleButtonClick}>Search</button>
+                <button className='btn btn-outline mx-auto block w-1/5 bg-slate-200 m-2' onClick={handleButtonClick}>Search</button>
                 </Link>
         </>
 
