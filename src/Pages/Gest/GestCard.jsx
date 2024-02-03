@@ -23,7 +23,7 @@ const GestCard = (params) => {
                             </div>
 
                             <div
-                                className="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8"
+                                className="absolute p-4 opacity-0 bg-slate-800 text-white rounded-b-md transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8"
                             >
                                 <span>
                                 <h2 className="mt-4 text-base font-bold sm:text-xl">{name}</h2>
