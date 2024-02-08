@@ -1,4 +1,5 @@
 import React from 'react';
+import DocumentTitle from 'react-document-title';
 import {  useLoaderData } from 'react-router-dom';
 
 const VolunteerCard = () => {
@@ -6,6 +7,9 @@ const VolunteerCard = () => {
     const {name,designation,picture,facebook,idno,whatsapp}=Volunteer_Data
     return (
         <div>
+        <DocumentTitle title={`স্বেচ্ছাসেবী | ${name}`}>
+        
+        </DocumentTitle>
             <div className='flex justify-center'>
                 <div >
                 
