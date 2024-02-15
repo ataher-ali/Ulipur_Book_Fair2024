@@ -15,7 +15,9 @@ const SearchCertificate = () => {
 
     return (
         <>
-
+<div className="hero min-h-screen" >
+  
+  <div>
 <h2 className="text-center text-5xl font-bold my-10 text-cyan-800"> সনদ যাচাই  </h2>
 
         <div className='flex justify-center'>
@@ -29,8 +31,14 @@ const SearchCertificate = () => {
                 />
         </div>
                 <Link to={`/certificate/${inputValue}`}>
-                <button className='btn btn-outline mx-auto block w-1/5 bg-slate-200 m-2' onClick={handleButtonClick}>Search</button>
+                <button className='btn btn-outline  block w-full bg-slate-200 px-2 m-2' onClick={handleButtonClick}>Search</button>
                 </Link>
+
+
+                
+
+                </div>
+</div>
         </>
 
     );

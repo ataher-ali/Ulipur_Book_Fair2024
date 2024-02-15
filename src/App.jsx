@@ -6,6 +6,7 @@ import Footer from './Pages/Footer/Footer';
 const App = () => {
   return (
     <div>
+      
       <Navbar></Navbar>
       <Outlet>
       </Outlet>

@@ -5,7 +5,7 @@ import { FaCloudArrowDown } from "react-icons/fa6";
 const Certificate = () => {
     const certificate_data = useLoaderData()
 
-    const { id, name, competition, division, certificate } = certificate_data
+    const { id, name, competition, division, place,school } = certificate_data
     return (
 
 
@@ -39,6 +39,16 @@ const Certificate = () => {
                             <th>:</th>
                             <td>{division}</td>
                         </tr>
+                        <tr>
+                            <th>স্থান</th>
+                            <th>:</th>
+                            <td>{place}</td>
+                        </tr>
+                        <tr>
+                            <th>স্কুল</th>
+                            <th>:</th>
+                            <td>{school}</td>
+                        </tr>
                     </tbody>
                 </table>
                 <div className='border border-black'></div>
@@ -46,7 +56,7 @@ const Certificate = () => {
 
             <div className='mx-2  m-2 lg:mt-8 lg:mx-10 flex justify-center'>
 
-                <div >
+                {/* <div >
                     <img className=' lg:h-60 rounded shadow' src={certificate} alt="" />
                     <Link
                         to={certificate}
@@ -62,7 +72,7 @@ const Certificate = () => {
                     </button>
                         
                     </Link>
-                </div>
+                </div> */}
             </div>
         </div>
     );
