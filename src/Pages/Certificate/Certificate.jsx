@@ -73,6 +73,7 @@ const Certificate = () => {
                         
                     </Link>
                 </div> */}
+                <p> ডেটা আপডেট এর কাজ চলছে ।</p>
             </div>
         </div>
     );
